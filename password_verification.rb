@@ -1,4 +1,6 @@
-
+puts "Welcome to my password program!"
+puts "Passwords must contain at least 8 characters, one capital letter, 
+  one lower case letter, and one of the following symbols: @ # $ % & !"
 print "Please enter your password: "
 password = gets.chomp
 
