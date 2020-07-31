@@ -41,16 +41,16 @@ puts "The current roster is:"
   puts "Name: #{names[i]} ID #: #{ids[i]} Email: #{emails[i]}" 
 end
 
-#An obvious problem with this exercise is that there exists a tradition of compound surnames 
+#An obvious issue in this exercise is that there exists a tradition of compound surnames 
 #in numerous cultures. The way this exercise is structured requires making certain assumptions
-#that erase the distinction between, for example, Helena Bohnam Carter (double) and 
-#John Maynard Keynes (not double), to say nothing of the numerous surnames one sees in Spanish 
+#that erase the distinction between, for example, Helena Bohnam Carter (double barrel surname) 
+#and John Maynard Keynes (not double), to say nothing of the numerous surnames one sees in Spanish 
 #and Portugese speaking traditions. It seems a little odd to construct an exercise that perpetuates 
 #a tortured relationship between Hispanic and/or Latinx Americans' naming traditions and 
 #databases everywhere. 
 
 #In light of the ambiguity above, the third optional part of this exercise is oddly specific - 
-#intials are subject greater personal preference and even fewer universally accepted conventions 
+#intials are subject to greater personal preference and even fewer universally accepted conventions 
 #than compound last names.  My strong prior is that two first initials is almost certainly not 
 #the universal preference among individuals with compound first names, nor is it likely even the 
 #majority position, partcuarly since inital choice frequently interacts with variables opaque 
@@ -61,4 +61,4 @@ end
 #I am applying the simplifying assumption that there will be no compound last names, only 
 #compound first names. Of course, the more obvious solution would be to simply ask the user 
 #for first name and last name separately, but this strikes me as being somewhat less in the 
-#spirt of the exercise as I would then have no strings to split.
+#spirit of the exercise as I would then have no strings to split.
